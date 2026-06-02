@@ -178,7 +178,6 @@ h2 {
   color: var(--orange);
   padding-top: 10px;
 }
-
 .card {
   background: var(--card);
   border: 1px solid rgba(31, 41, 51, 0.08);
@@ -248,7 +247,6 @@ h2 {
   padding: 28px 28px 28px 48px;
   box-shadow: var(--shadow);
 }
-
 footer {
   text-align: center;
   padding: 36px 20px;
