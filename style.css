@@ -179,24 +179,6 @@ h2 {
   padding-top: 10px;
 }
 
-.timeline-img {
-  width: 100%;
-  height: auto;
-  max-height: none;
-  object-fit: contain;
-  border-radius: 18px;
-  margin: 12px 0 8px;
-  display: block;
-  background: #f8fafc;
-}
-
-.img-caption {
-  font-size: 0.88rem;
-  color: var(--muted);
-  font-style: italic;
-  margin: 4px 0 16px;
-}
-
 .card {
   background: var(--card);
   border: 1px solid rgba(31, 41, 51, 0.08);
@@ -204,6 +186,24 @@ h2 {
   padding: 26px;
   box-shadow: var(--shadow);
 }
+
+.timeline-img {
+  width: 100%;
+  max-height: 340px;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+  margin-bottom: 10px;
+  border: 1px solid rgba(31, 41, 51, 0.08);
+}
+
+.img-caption {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 .card h3 {
   margin: 10px 0 8px;
   font-size: clamp(1.35rem, 2vw, 1.8rem);
